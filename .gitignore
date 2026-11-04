@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+*.dSYM/
+
+# VS Code task output for main.cpp
+/main
+
+# Build directories
+/build/
+/cmake-build-*/
+.vscode/
