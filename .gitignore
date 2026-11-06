@@ -1,5 +1,7 @@
-# macOS
+# OS metadata
 .DS_Store
+Thumbs.db
+Desktop.ini
 
 # C/C++ build artifacts
 *.o
@@ -7,6 +9,7 @@
 *.a
 *.lib
 *.so
+*.so.*
 *.dylib
 *.dll
 *.exe
@@ -14,10 +17,48 @@
 *.d
 *.dSYM/
 
+# Precompiled headers
+*.gch
+*.pch
+*.ipch
+
+# MSVC debug and incremental-link artifacts
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.exp
+*.tlog
+
 # VS Code task output for main.cpp
 /main
 
 # Build directories
 /build/
 /cmake-build-*/
+/out/
+/Debug/
+/Release/
+
+# CMake and Ninja generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# IDE-local settings and caches
 .vscode/
+.vs/
+.idea/
+*.suo
+*.user
+
+# Temporary editor files
+*.swp
+*.swo
+*~
